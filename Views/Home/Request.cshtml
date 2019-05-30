@@ -1,0 +1,38 @@
+﻿@model CreditCardApp.Models.Request
+
+@{
+    ViewBag.Title = "Request";
+}
+
+<h2>Request</h2>
+<div>
+    @Html.LabelFor(m => m.Id)
+    @Html.DisplayTextFor(m => m.Id)
+</div>
+<br />
+<div>
+    @Html.LabelFor(m => m.firstName)
+    @Html.DisplayTextFor(m => m.firstName)
+</div>
+<br />
+<div>
+    @Html.LabelFor(m => m.lastName)
+    @Html.DisplayTextFor(m => m.lastName)
+</div>
+<br />
+<div>
+    @Html.LabelFor(m => m.dob)
+    @Html.DisplayTextFor(m => m.dob)
+</div>
+<br />
+<div>
+    @Html.LabelFor(m => m.income)
+    @Html.DisplayTextFor(m => m.income)
+</div>
+<br />
+<div>
+    @Html.LabelFor(m => m.solution)
+    @Html.DisplayTextFor(m => m.solution)
+</div>
+
+

@@ -1,0 +1,19 @@
+﻿@model CreditCardApp.Models.Result
+
+@{
+    ViewBag.Title = "Solution";
+}
+
+<h2>Solution</h2>
+@if (!Model.imgURL.IsEmpty())
+{ 
+    <img src="@Url.Content(Model.imgURL)">
+}
+<div>
+    @Html.DisplayTextFor(m => m.APR)
+</div>
+<br />
+<div>
+    @Html.DisplayTextFor(m => m.flavourText)
+</div>
+<br />
